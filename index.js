@@ -17,6 +17,12 @@ let pbj = new Object();{
 
     und: "";
     nl : null;
+ 
+console.log(typeof pbj.str);
+console.log(typeof pbj.num);
+console.log(typeof pbj.bool);
+console.log(typeof pbj.und);
+console.log(typeof pbj.nl)
 };
 // 5
  let isAdult = confirm("is 18?");
