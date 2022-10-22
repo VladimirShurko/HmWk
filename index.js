@@ -34,12 +34,14 @@ let married = confirm("married?");
 Name = "Volodymy";
 Lname = "Shurko";
 Party ="JS Fundamentals";
-let nul=null;
-let undefi ;
 
-console.log(Year,married, Name, Lname, Party, nul, undefi); 
+console.log( typeof Year); 
+console.log( typeofmarried); 
+console.log( typeof Name); 
+console.log( typeofLname); 
+console.log( typeofParty); 
 
-7
+//7
 
 let login = prompt("login?");
 let email = prompt('email?');
