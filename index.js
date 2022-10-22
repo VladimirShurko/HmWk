@@ -13,7 +13,7 @@ alert(b);
 let pbj = new Object();{
     str: "hello";
     num:  12;
-    bool:  4>1;
+    bool:  true; //4>1
 
     und: "";
     nl : null;
