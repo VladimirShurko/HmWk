@@ -36,10 +36,10 @@ Lname = "Shurko";
 Party ="JS Fundamentals";
 
 console.log( typeof Year); 
-console.log( typeofmarried); 
+console.log( typeof married); 
 console.log( typeof Name); 
-console.log( typeofLname); 
-console.log( typeofParty); 
+console.log( typeof Lname); 
+console.log( typeof Party); 
 
 //7
 
