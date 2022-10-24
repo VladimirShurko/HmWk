@@ -10,12 +10,12 @@ alert(`${a} ${b}`);
 b=a;
 alert(b);
 //4
-let pbj = new Object();{
+let pbj = new Object{
     str: "hello";
     num:  12;
     bool:  true; //4>1
 
-    und: "";
+    und: undefined;
     nl : null;
  
 console.log(typeof pbj.str);
