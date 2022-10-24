@@ -50,18 +50,18 @@ alert (`"Dear" ${login}", your "${email}", your password is"${pass}`);
 
 8
 
-let ind=prompt("where you want check secunds? '1' in hour '2' in days '3' in month");
+let ind=prompt("where you want check seconds? '1' in hour '2' in days '3' in month");
 let sec, hour, day, mnth;
 if(ind = 1){
-    hour=prompt("in how many hours you want check secunds?");
+    hour=prompt("in how many hours you want check seconds?");
          sec = hour*60;
          alert(`"in ${hour}hour is ${sec} seconds" `);
 } else if(ind = 2){
-    day=prompt("in how many days you want check secunds?");
+    day=prompt("in how many days you want check seconds?");
          day = (day*24)*60;
          alert(`"in ${day}is ${sec} seconds" `);
 }else{
-    mnth=prompt("in how many months you want check secunds?");
+    mnth=prompt("in how many months you want check seconds?");
         sec = ((mnth*30)*24)*60;
         alert(`"in ${mnth} month is ${sec} seconds" `);
 };
